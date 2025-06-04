@@ -1,0 +1,77 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffffff;
+  color: #333;
+}
+header {
+  background-color: #d60000;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+nav {
+  background-color: #0051ba;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 0.75rem;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.banner {
+  background: url('https://i.imgur.com/0O0o0aN.jpg') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 6rem 2rem;
+}
+.section {
+  padding: 3rem 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+.section h3 {
+  color: #0051ba;
+  margin-bottom: 1rem;
+}
+.services ul {
+  list-style: none;
+  padding-left: 0;
+}
+.services li::before {
+  content: '✔️';
+  margin-right: 0.5rem;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+.gallery img {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+footer {
+  background-color: #d60000;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+.whatsapp-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25D366;
+  color: white;
+  padding: 1rem 1.2rem;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
